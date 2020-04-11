@@ -1,0 +1,2 @@
+# juyeon
+📍[Django] practice 📍
