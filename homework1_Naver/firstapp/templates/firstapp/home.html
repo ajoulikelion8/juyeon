@@ -1,0 +1,68 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    
+    <link rel="stylesheet"  type="text/css" href="{% static 'css/style.css' %}"/>
+  </head>
+
+  <body>
+  {% block asd %}
+	{% endblock %}
+
+    <div class = "container">
+      <div class = "header">
+        <div class = "header_top">
+          NAVER
+          <img src="{% static 'css/img/search.png' %}" wdith="130" height="50" alt="search"/>
+         </div>
+        </div>
+        
+        <div class = "header_bottom">
+          <div class = "navi">메일</div>
+          <div class = "navi">카페</div>
+          <div class = "navi">블로그</div>
+          <div class = "navi">지식iN</div>
+          <div class = "navi">쇼핑</div>
+          <div class = "navi">Pay</div>
+          <div class = "navi">TV</div>
+          <div class = "navi">사전</div>
+          <div class = "navi">뉴스</div>
+          <div class = "navi">증권</div>
+          <div class = "navi">부동산</div>
+          <div class = "navi">지도</div>
+          <div class = "navi">영화</div>
+          <div class = "navi">뮤직</div>
+          <div class = "navi">책</div>
+          <div class = "navi">웹툰</div>
+        </div>
+      </div>
+    </div>
+
+    <div class = "content">
+      <div class = "content_left">
+        <div class = "left_box1">
+          광고
+        </div>
+        <div class = "left_box2">
+          기사
+        </div>
+
+      </div>
+      <div class = "content_right">
+        <div class = "right_box1">
+          로그인
+        </div>
+        <div class = "right_box2">
+          그 외 
+        </div>
+      </div>
+    </div>
+
+    <div class = "footer">
+      <h2>footer 위치</h2>
+    </div>
+
+  </body>
+</html>
